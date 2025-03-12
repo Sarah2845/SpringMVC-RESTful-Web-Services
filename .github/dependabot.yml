@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"  # Utiliser "npm" pour les projets Node.js, "pip" pour Python, etc.
+    directory: "/"  # Répertoire où se trouve le fichier pom.xml
+    schedule:
+      interval: "weekly"  # Vérifications hebdomadaires des mises à jour
